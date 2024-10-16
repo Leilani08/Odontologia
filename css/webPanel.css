@@ -1,0 +1,42 @@
+*{
+     margin:0px;
+     padding: 0px;
+}
+table{
+    width: 500px;
+    border: 1px solid black;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+/* Style the #subMenu */
+#subMenu {
+    list-style-type: none; 
+    margin: 0;             
+    padding: 0;            
+    background-color: #333;
+    width: 200px;         
+}
+
+/* Style the individual list items */
+#subMenu li {
+    padding: 10px 20px;    
+    font-size: 18px;       
+    color: white;          
+    border-bottom: 1px solid #555; 
+    cursor: pointer;      
+}
+
+/* Hover effect for the list items */
+#subMenu li:hover {
+    background-color: #575757; 
+    color: #fff;               
+}
+
+/* Optional: Active state for the current/selected item */
+#subMenu li.active {
+    background-color: #4CAF50; 
+    color: white;
+}
