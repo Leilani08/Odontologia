@@ -1,0 +1,56 @@
+table{
+    width: 1200px;
+}
+th{
+    font-size: 20px;
+    font-weight:bolder ;
+    border-bottom: 1px solid black;
+}
+tr{
+    height: 30px;
+}
+td{
+    padding: 5px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.692);
+}
+#btn-asistio{
+    text-align: center;
+}
+#btn-yes{
+    width: 50px;
+    height: 45px;
+    background-color: green;
+    border: none;
+}
+#btn-yes:hover{
+    background-color: rgb(37, 158, 37);
+    cursor: pointer;
+}
+#btn-no{
+    width: 50px;
+    height: 45px;
+    background-color: rgb(219, 3, 3);
+    margin-left: 10px;
+    border: none;
+}
+#btn-no:hover{
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+#agendarCita{
+    background-color: #13919C;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    height: 25px;
+    border: none;
+    float: right;
+    margin-top: 20px;
+    margin-right:20px;
+}
+#agendarCita:hover{
+    background-color: #41C7D3;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
